@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  background-color: #0E1317;
+  width: 100vw;
+  height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0E1317;
+  height: 80px;  
+  box-shadow: 0 5px 25px rgba(0,0,0,.6);
+  width: 100%;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+.li a{
+  padding: 0px 30px;
+  color: rgba(240, 248, 255, 0.658);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: medium;
+}
+.li a:hover{
+  color: #ffffff;
+  transition: 0.5s ;
+}
+.logo{
+  font-weight: 700;
+  font-size: xx-large;
+  color: aliceblue;
+}
+.logo span{
+  color: #FF9600;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.cardapios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8000px;
+}
+.cardapios img{
+  width: 600px;
+  height: 848px;
+  margin: 10px 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(23, 26, 29);
+  width: 100%;
+  height: 500px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.contact h2, .info h2{
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.logo-tipo h2{
+  color: #FF9600;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.contact p, .info p{
+  color: #f0f8ffb7;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.logo-tipo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.svg{
+  width: 15px;
+}
+.svg-logo{
+  width: 50px;
+  border: 1px solid #FF9600;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 450px) {
+  header{
+    display: flex;
+    width: 100%;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .li a{
+    padding: 0px 10px;
+    font-size: 10px;
+  }
+  .cardapios img{
+    width: 400px;
+  }
+  
+}
+
